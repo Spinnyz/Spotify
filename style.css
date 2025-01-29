@@ -1,0 +1,113 @@
+body{
+    background-color: #000;
+    font-family: sans-serif;
+}
+
+.logo  img{
+    width: 90px;
+    position: relative;
+    left:8px;
+    
+}
+
+.logo{
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;    
+    bottom: 0;
+    padding: 10px;
+    width: 300px;
+}
+
+.nav-sidebar{
+    background-color: #121212;
+    border-radius: 8px;
+    padding : 16px 0 0 0;
+
+}
+
+.sidebar nav ul{
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.sidebar nav ul li{
+    padding: 10px 0px;
+}
+
+.sidebar nav ul li a{
+    font-family: sans-serif;
+    color: rgb(184, 149, 149);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+ .libary{
+    background-color:#121212;
+    border-radius:8px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:4px 8px;
+    color:#b3b3b3;
+    font-weight: 600;
+    font-size:14px;
+    margin-top: 10px;
+ }
+    
+
+ .libary .libary__content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.libary__button{
+    display:flex;
+    margin-right: 10px;
+    color:#b3b3b3;
+    background-color: transparent;
+    border:0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family:sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding:20px 10px;
+}
+
+.libary__button:hover{
+    color: #fff;
+    background-color: #282828;
+    border-radius: 8px;
+}
+
+.libary .libary__button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+    color: #b3b3b3;
+    
+}
+
+.libary .libary__button .fa-plus{
+    margin-left: auto;
+}
+
+.tutorial .tutorual__titulo{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700; 
+    margin-left: 10px;
+    
+}

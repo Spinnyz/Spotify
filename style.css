@@ -140,3 +140,20 @@ body{
     width: 113px;
     margin-top: 12px;
 }
+.sidebar .cookies {
+    padding:20px;
+}
+
+.sidebar .cookies a{
+    font-size: 15px;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.sidebar .cookies a:hover{
+    color: red;
+    transition: 1s; 
+    text-decoration: underline;
+}

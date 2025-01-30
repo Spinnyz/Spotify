@@ -81,6 +81,7 @@ body{
     text-decoration: none;
     text-transform: none;
     padding:20px 10px;
+    cursor: pointer;
 }
 
 .library .library__button .fa{
@@ -139,6 +140,7 @@ body{
     text-decoration: none;
     width: 113px;
     margin-top: 12px;
+    cursor: pointer;
 }
 .sidebar .cookies {
     padding:20px;
@@ -156,4 +158,68 @@ body{
     color: red;
     transition: 1s; 
     text-decoration: underline;
+}
+
+.lenguage{
+    padding: 10px
+}
+
+.lenguage .lenguage_button{
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.Assinatura_container{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    background-image: linear-gradient(to right,rgb(179, 89, 187),rgb(62, 62, 131), rgb(30, 127, 136));
+}
+
+.Assinatura_container .text_assinatura .title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    font-family: arial;
+    position: fixed;
+}
+
+.text_subtitle{
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+    font-family: arial;
+    position: fixed;
+    bottom:6px;
+    font-weight:bold;
+    width: 100%;
+}
+
+.button_subscribe{
+    position: fixed;
+    bottom: 4%;
+    right: 5%;
+}
+
+.button_subscribe .subscribe{
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    color: #000;
+    font-size: 13px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
 }

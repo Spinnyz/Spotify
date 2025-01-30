@@ -95,3 +95,44 @@ body{
     margin: 24px 10px;
 }
 
+.section_playlist{
+    background-color: #242424;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.section_playlist .section_playlist__content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section_playlist .text_title{
+    padding-bottom:14px ;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.section_playlist .text_subtitle{
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.section_playlist .section-playlist__button{
+    border: none;
+    padding: 8px 0;
+    border-radius: 20px;
+    color: #000;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+
+}

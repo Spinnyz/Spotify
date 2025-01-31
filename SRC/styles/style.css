@@ -192,11 +192,12 @@ body{
     margin: 10px;
     font-family: arial;
     position: fixed;
+    font-weight: 600;
 }
 
 .text_subtitle{
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     padding: 10px;
     margin: 10px;
     font-family: arial;
@@ -208,8 +209,8 @@ body{
 
 .button_subscribe{
     position: fixed;
-    bottom: 4%;
-    right: 5%;
+    bottom: 20px;
+    right: 30px;
 }
 
 .button_subscribe .subscribe{
@@ -221,5 +222,5 @@ body{
     padding: 10px;
     font-weight: bold;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }

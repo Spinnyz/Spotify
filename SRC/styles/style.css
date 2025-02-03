@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DMSans-Regular.ttf");
+}
+
+
 body{
     background-color: #000;
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 
 .logo  img{
